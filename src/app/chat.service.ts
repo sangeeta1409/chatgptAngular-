@@ -11,7 +11,7 @@ export class Message {
 export class ChatService {
   conversation = new Subject<Message[]>();
   messageMap: {[key: string]: string} = {
-    'hi': 'Hello! How can I assist you today?',
+    // 'hi': 'Hello! How can I assist you today?',
     'hii':'Hello! How can I assist you today?',
     'Hi': 'Hello ! How can I assist you today?',
     'hlo':'please check your spelling',
